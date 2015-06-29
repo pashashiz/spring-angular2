@@ -6,7 +6,7 @@ angular.module('securedApp')
                     function () {
                         $rootScope.authenticated = false;
                         $location.path("/login");
-                    })
-            }
+                    });
+            };
         }
     ]);

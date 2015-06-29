@@ -14,6 +14,6 @@ angular.module('securedApp')
                         $scope.error = true;
                         $location.path("/login");
                     });
-            }
+            };
         }
     ]);
